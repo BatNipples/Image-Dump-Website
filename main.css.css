@@ -1,0 +1,115 @@
+body {
+	background-color:white;
+	margin:0;
+	padding:0;
+}
+
+.headerbar {
+	background-color:yellow;
+	border:5px solid black;
+	height:4em;
+}
+
+.headerbar h1 {
+	margin:10px;
+	padding-left:10px;
+	padding-right:10px;
+	color:black;
+	background-color:white;
+	border:5px solid black;
+}
+
+.dropDownItems {
+	cursor:pointer;
+	width:130px;
+	color:black;
+	border:5px solid black;
+	display:inline-block;
+	text-align:center;
+	background-color:white;
+}
+
+.dropDownMenu {
+	text-align:center;
+}
+
+#slideShowContainer1{
+  max-width:650px;
+  max-height:650px;
+  margin:auto;
+  border:5px solid black;
+}
+
+.slideImage {
+	width:100%;
+	height:100%;
+}
+
+.dot {
+	cursor:pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+#galleryContainer {
+	margin:auto;
+	height:650px;
+	width:650px;
+	border:5px solid black;
+}
+
+.galleryImage {
+	width:150px;
+	height:150px;
+	display:inline-block;
+	padding:10px;
+}
+
+#gallery {
+	text-align:center;
+}
+
+#galleryTextTitle {
+	text-align:center;
+}
+
+#galleryBody {
+	text-align:center;
+}
+
+#canvas {
+	display:block;
+	margin:auto;
+	border:5px solid black;
+	width:500px;
+	height:500px;
+}
+
+.settings {
+	text-align:center;
+}
+
+#line_size, #line_color, #texture {
+	display:inline;
+	border:5px solid black;
+}
+
+#customizerContainer {
+	border:5px solid black;
+	width:650px;
+	height:650px;
+	margin:auto;
+}
+
+#reportContainer {
+	border:5px solid black;
+	width:650px;
+	height:650px;
+	margin:auto;
+}
+

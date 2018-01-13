@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="jscript.js"></script>
+	<meta charset="UTF-8">
+</head>
+<body>
+	<div class="headerbar">
+		<h1>Image Dump</h1>
+	</div>
+	<div class="dropDownMenu">
+			<h2 class="dropDownItems" data-item="1">Slides</h2>
+			<h2 class="dropDownItems" data-item="2">Galleries</h2>
+			<h2 class="dropDownItems" data-item="3">Customizer</h2>
+			<h2 class="dropDownItems" data-item="4">Report</h2>
+	</div>
+	<div id="slideShowContainer1" tabindex="-1">
+		<div class="mySlides Fade">
+			<img class="slideImage" data-id="6" src="images/image1.jpg">
+		</div>
+		<div class="mySlides">
+			<img class="slideImage" data-id="7" src="images/image2.jpg">
+		</div>
+		<div class="mySlides">
+			<img class="slideImage" data-id="8" src="images/image3.jpg">
+		</div>
+		<div class="mySlides">
+			<img class="slideImage" data-id="9" src="images/image4.jpg">
+		</div>
+		<div class="mySlides">
+			<img class="slideImage" data-id="10" src="images/image5.jpg">
+		</div>
+	</div>
+	</br>
+	<div style="text-align:center">
+		<span class="dot" data-id="1"></span> 
+		<span class="dot" data-id="2"></span> 
+		<span class="dot" data-id="3"></span>
+		<span class="dot" data-id="4"></span> 
+		<span class="dot" data-id="5"></span> 
+	</div>
+	</br>
+	<div id="galleryContainer" tabindex = "-1">
+		<div id="gallery">
+			<h1 id="galleryHeader">GALLERY</h2>
+			<img class="galleryImage" data-gallery="1" src="images/Number1.jpg">
+			<img class="galleryImage" data-gallery="2" src="images/Number2.jpg">
+			<img class="galleryImage" data-gallery="3" src="images/Number3.jpg">
+		</div>
+		<h3 id="galleryTextTitle">Place Holder</h3>
+		<article id="galleryBody">Place holder 2</article>
+	</div>
+	<br>
+	<br>
+	<br>
+	<div id="customizerContainer" tabindex="-1">
+		<a id="customizerLink" href:"canvas.html">Go To The Customizer</a>
+	</div>
+	<br>
+	<br>
+	<br>
+	<div id="reportContainer" tabindex="-1">
+		<a id="reportLink">Go To The Report</a>
+	</div>
+</body>
+</html>

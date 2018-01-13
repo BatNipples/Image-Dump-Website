@@ -1,0 +1,22 @@
+body {
+	margin:0;
+	padding:0;
+}
+
+#canvas {
+	display:block;
+	margin:auto;
+	border:5px solid black;
+	width:500px;
+	height:500px;
+	/*background-image:url(images/image1.jpg);*/
+}
+
+.settings {
+	text-align:center;
+}
+
+#line_size, #line_color, #texture {
+	display:inline;
+	border:5px solid black;
+}
