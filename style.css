@@ -92,6 +92,7 @@ body {
 
 .settings {
 	text-align:center;
+	border:5px solid black;
 }
 
 #line_size, #line_color, #texture {
@@ -111,5 +112,13 @@ body {
 	width:650px;
 	height:650px;
 	margin:auto;
+}
+
+#reportBody {
+	text-align:center;
+}
+
+#reportTitle {
+	text-align:center;
 }
 
